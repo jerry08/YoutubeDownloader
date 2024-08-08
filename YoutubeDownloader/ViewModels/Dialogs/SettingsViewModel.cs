@@ -67,7 +67,7 @@ public class SettingsViewModel : DialogViewModelBase
     public int ParallelLimit
     {
         get => _settingsService.ParallelLimit;
-        set => _settingsService.ParallelLimit = Math.Clamp(value, 1, 10);
+        set => _settingsService.ParallelLimit = Math.Clamp(value, 1, 20);
     }
 
     protected override void Dispose(bool disposing)

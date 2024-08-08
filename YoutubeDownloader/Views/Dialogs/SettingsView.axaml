@@ -162,7 +162,7 @@
                             <Slider
                                 Width="150"
                                 IsSnapToTickEnabled="True"
-                                Maximum="10"
+                                Maximum="20"
                                 Minimum="1"
                                 TickFrequency="1"
                                 Value="{Binding ParallelLimit}" />
